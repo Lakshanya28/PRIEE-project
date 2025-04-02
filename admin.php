@@ -28,9 +28,9 @@ if ($current_user['role'] !== 'admin') {
             <nav>
                 <ul>
                     <li class="active"><a href="admin.php"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
-                    <li><a href="#" id="manage-schedules-btn"><i class="fas fa-calendar-plus"></i> Manage Schedules</a></li>
+                    <li><a href="manage_schedules.php" id="manage-schedules-btn"><i class="fas fa-calendar-plus"></i> Manage Schedules</a></li>
                     <li><a href="#" id="manage-swaps-btn"><i class="fas fa-exchange-alt"></i> Manage Swaps</a></li>
-                    <li><a href="#" id="manage-users-btn"><i class="fas fa-users"></i> Manage Users</a></li>
+                    <li><a href="manage_users.php" id="manage-users-btn"><i class="fas fa-users"></i> Manage Users</a></li>
                     <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
                 </ul>
             </nav>

@@ -23,7 +23,7 @@ require_once 'backend/auth.php';
             <nav>
                 <ul>
                     <li class="active"><a href="index.php"><i class="fas fa-calendar"></i> My Schedule</a></li>
-                    <li><a href="#" id="request-swap-btn"><i class="fas fa-exchange-alt"></i> Request Swap</a></li>
+                    <!--<li><a href="#" id="request-swap-btn"><i class="fas fa-exchange-alt"></i> Request Swap</a></li>-->
                     <li><a href="#" id="pending-requests-btn"><i class="fas fa-clock"></i> Pending Requests</a></li>
                     <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
                 </ul>
